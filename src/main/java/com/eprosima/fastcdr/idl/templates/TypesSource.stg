@@ -217,7 +217,7 @@ $struct.scopedname$::$struct.name$()$if(struct.inheritances)$
 
     $if(ctx.generateTypeObject)$
     // Just to register all known types
-    register$ctx.filename$Types();
+    // register$ctx.filename$Types();
     $endif$
 }
 
@@ -352,7 +352,7 @@ $bitset.scopedname$::$bitset.name$()$if(bitset.parents)$
 {
     $if(ctx.generateTypeObject)$
     // Just to register all known types
-    register$ctx.filename$Types();
+    // register$ctx.filename$Types();
     $endif$
 }
 
